@@ -1,0 +1,1 @@
+int c,b;struct mo {int test;};int main(void){struct mo plo;c = 8;plo.test = c;return 1;}

@@ -1,0 +1,27 @@
+int main(void) {
+   int nb1, nb2;
+   nb1=-1;
+   nb2 = 6;
+   print(nb1);print (nb2);
+   print(add(nb1,nb2));
+   print (factorielle(nb2));print(mult(nb1,nb2));
+
+   
+   return 0;
+}
+
+int  factorielle(int n){
+  if (n == 0)
+    return 1;
+  else
+    return(n * factorielle(n-1));
+}
+
+int mult(float a, int b) {
+    return a*b;
+}
+
+int add(int a, int b) {
+
+    return a+b;
+}

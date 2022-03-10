@@ -1,0 +1,31 @@
+int c,b;
+
+struct mo {
+    int test;
+};
+
+void affichevaleur(int val)
+{
+    if (c == val && b != c)
+	{
+        print(val);
+		print('\n');
+	}
+    else
+        reade(val);
+}
+
+int     main(void)
+{
+    struct mo plo;
+
+    c = 8;
+    plo.test = c;
+    b = 10;
+    while (plo.test < b)
+	{
+        affichevaleur(plo.test);
+		plo.test = plo.test + 1;
+	}
+    return 1;
+}

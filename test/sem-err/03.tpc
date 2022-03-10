@@ -1,0 +1,48 @@
+int c,b;
+char alors;
+
+struct mo {
+    int test;
+};
+
+struct mo pop;
+
+int le_meilleur(int a, int b)
+{
+    if (a == b)
+        return b;
+    else
+    {
+        if (b < a)
+            return b;
+        return a;
+    }
+}
+
+struct mo la_fonction_est_folle(char c, int i, char d, int l)
+{
+    pop.lourd = c;
+    l = (le_meilleur(l, i) + 5) - 8;
+    return pop;
+}
+
+void affichevaleur(int val)
+{
+    if (c == val && b != c)
+        print(val);
+    else
+        reade(val);
+}
+
+int     main(void)
+{
+    struct mo plo;
+
+    c = 8;
+    plo.test = c;
+    b = 12;
+    while (1)
+        affichevaleur(plo.test);
+    return 1;
+}
+

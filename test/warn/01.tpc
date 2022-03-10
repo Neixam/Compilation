@@ -1,0 +1,40 @@
+int c,b;
+char alors;
+
+struct mo {
+    int test;
+};
+
+struct mo pop;
+
+int le_meilleur(int a, int b)
+{
+    if (a == b)
+        return b;
+    else
+    {
+        if (b < a)
+            return b;
+        return a;
+    }
+}
+
+void affichevaleur(int val)
+{
+    if (c == val && b != c)
+        print(val);
+    else
+        reade(val);
+}
+
+int     main(void)
+{
+    struct mo plo;
+
+    c = 8;
+    plo.test = c;
+    b = 12 + 'c';
+    while (1)
+        affichevaleur(plo.test);
+    return 1;
+}
